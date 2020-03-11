@@ -1,0 +1,62 @@
+.content-container {
+  background-color: #222222;
+  padding-top: 60px;
+  padding-left: 50px;
+  height: 2000px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-prev:before {
+  content: "<" !important;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.slick-next:before {
+  content: ">" !important;
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.topic-link {
+  color: white;
+  text-decoration: none;
+}
+
+.topic-link:hover {
+  color: #09de6e;
+}
+
+.topic-link:hover .topic-arrow {
+  left: 5px;
+}
+
+.topic-arrow {
+  position: relative;
+  top: 4px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.text-hit-container {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.slick-track {
+  display: inline-flex !important;
+}

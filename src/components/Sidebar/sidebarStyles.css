@@ -1,0 +1,140 @@
+.sidebar-container {
+  background: #101010;
+  position: fixed;
+  bottom: 0;
+  top: 56px;
+  z-index: 10;
+}
+
+.large-sidebar.sidebar-container {
+  width: 200px;
+  overflow: scroll;
+}
+
+.mini-sidebar.sidebar-container {
+  width: 65px;
+}
+
+.icon-sidebar-text {
+  margin-left: 20px;
+}
+
+.sidebar-icon-group {
+  line-height: 40px;
+  margin: 10px 0px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.above-group {
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.sidebar-download-button {
+  background: #09de6e;
+  font-size: 0.875rem;
+  color: #000;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 0px;
+  padding: 3px 20px;
+  margin: 0px auto;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar-download-button:hover {
+  background: hsl(148.5, 92.2%, 58.9%);
+  cursor: pointer;
+}
+
+.icon-sidebar-download-group {
+  padding: 10px 0px 20px;
+}
+
+.highlight:hover {
+  color: #09de6e;
+}
+
+.highlight-only-text:hover .icon-sidebar-text {
+  color: #09de6e;
+}
+
+.highlight-only-text:hover .prev-icon {
+  background: #09de6e;
+}
+
+.highlight:hover .prev-icon {
+  background: #09de6e;
+}
+
+.highlight:active .prev-icon {
+  background: #09de6e;
+}
+
+.prev-icon {
+  position: absolute;
+  display: block;
+  width: 3px;
+  height: 22px;
+  left: 0px;
+  margin-top: 6px;
+}
+
+.icon-sidebar-container.large-sidebar {
+  display: block;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.icon-sidebar-container.mini-sidebar a {
+  display: block;
+  text-align: center;
+}
+
+.icon-sidebar-container.mini-sidebar {
+  position: relative;
+  width: 100%;
+}
+
+.sidebar-detail-text {
+  display: none;
+  position: absolute;
+  top: 6px;
+  left: 45px;
+  background: #cfcfcf;
+  color: black;
+  font-weight: bold;
+  padding: 0px 10px;
+  line-height: 1.4;
+  border-radius: 2px;
+  white-space: pre;
+}
+
+.icon-sidebar-container.mini-sidebar:hover .sidebar-detail-text {
+  display: block;
+  cursor: pointer;
+}
+
+.browse-text {
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  margin: -5px 0px 0px 50px;
+}
+
+.sidebar-active-icon a {
+  color: #09de6e;
+}
+
+.sidebar-active-icon .prev-icon {
+  background: #09de6e;
+}
+
+.browse-icon svg {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}

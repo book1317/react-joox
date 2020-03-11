@@ -1,0 +1,40 @@
+.App {
+  overflow: hidden;
+}
+
+body {
+  background-color: #222222;
+  color: #fff;
+  margin: 0px;
+}
+
+.white-link {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.white-link:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.grey-link {
+  color: rgb(168, 168, 168);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.grey-link:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar-container a,
+.top-chart-container a,
+.content-container a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

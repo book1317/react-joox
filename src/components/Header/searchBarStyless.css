@@ -1,0 +1,30 @@
+.header-search-bar-container {
+  display: flex;
+  margin: 0 20px;
+  width: 400px;
+  position: relative;
+}
+
+.header-search-bar-input {
+  background: #cfcfcf;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 35px;
+  width: 100%;
+  font-size: 0.875rem;
+  padding: 0 45px 0 15px;
+}
+
+.header-search-bar-input:focus {
+  outline: none;
+  border: 1px solid #09de6e;
+}
+
+.header-search-bar-icon {
+  color: black;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

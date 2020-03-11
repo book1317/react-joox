@@ -1,0 +1,99 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background-color: #111111;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 10px;
+  z-index: 12;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-button-container {
+  display: flex;
+}
+
+.sidebar-button {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-right: 30px;
+  background: transparent;
+  border: 0;
+}
+
+.sidebar-button:hover {
+  cursor: pointer;
+}
+
+.sidebar-button-line {
+  background: #9b9b9b;
+  z-index: 2;
+  width: 20px;
+  height: 1px;
+  position: absolute;
+}
+
+.line-one {
+  top: 6px;
+  left: 5px;
+}
+
+.line-two {
+  top: 13px;
+  left: 5px;
+}
+
+.line-three {
+  top: 20px;
+  left: 5px;
+}
+
+.joox-logo {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background-image: url(//cdn2-joox.isanook.com/static/di/MainHeader/joox-logo01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.header-button {
+  background: #09de6e;
+  font-size: 0.875rem;
+  color: #000;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 0px;
+  letter-spacing: 0.41px;
+  padding: 7px 20px;
+  transition: 0.3s;
+}
+
+.loading-button:hover {
+  background: hsl(148.5, 92.2%, 58.9%);
+  cursor: pointer;
+}
+
+.register-button-container {
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #4a4a4a;
+  display: inline-block;
+}
+
+.register-button {
+  border: 1px;
+  background: transparent;
+  border-color: #bcbcbc;
+  color: #e5e5e5;
+  border-style: solid;
+}
+.register-button:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
