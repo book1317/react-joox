@@ -56,7 +56,7 @@ class Player extends React.Component {
     return (
       <div
         class="player-container"
-        // onClick={() => this.setState({ isCopyLink: false })}
+      // onClick={() => this.setState({ isCopyLink: false })}
       >
         <div style={{ alignItems: "center", display: "flex" }}>
           <div class="player-vinyl"></div>
@@ -65,8 +65,8 @@ class Player extends React.Component {
           {this.state.play ? (
             <FaPauseCircle class="play-icon white-link" onClick={this.play} />
           ) : (
-            <FaPlayCircle class="play-icon white-link" onClick={this.play} />
-          )}
+              <FaPlayCircle class="play-icon white-link" onClick={this.play} />
+            )}
           <FaStepForward class="grey-link" />
           <FaRetweet class="grey-link" />
         </div>
